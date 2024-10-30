@@ -137,6 +137,16 @@ void loop()
 
 
 
+
+
+
+
+
+
+
+
+
+
 # OUTPUT:
 ## THINGSPEAK
 ![image](https://github.com/user-attachments/assets/bc32ceff-5673-4ba1-8a06-2edb6d50c6d0)
