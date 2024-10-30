@@ -72,25 +72,20 @@ Automatically act on your data and communicate using third-party services like T
 
 ![image](https://user-images.githubusercontent.com/71547910/235334056-3ba9579f-2f62-43b1-a714-8fde6cf9ef32.png)
 
-
 # PROGRAM:
 ```c
 #include"ThingSpeak.h"
 #include <WiFi.h>
 #include "DHT.h"
-
 char ssid[]="xx";
 char pass[]="xyz";
-
 const int t=25;
 WiFiClient client;
 DHT dht(25, DHT11);
-
 unsigned long myChannelField = 2492690;
 const int ChannelField1 = 1 ; 
 const int ChannelField2 = 2 ;
 const char *myWriteAPIKey="RF8WCRR152XWWRQW";
-
 void setup()
 {
   Serial.begin(115200);
@@ -100,7 +95,6 @@ void setup()
   dht.begin();
   delay(1000);
 }
-
 void loop()
 {
   if(WiFi.status()!=WL_CONNECTED)
@@ -130,8 +124,14 @@ void loop()
 }
 ```
 
+
 # CIRCUIT DIAGRAM:
 ![IoT temperature censor](https://github.com/user-attachments/assets/66d5d7f3-6442-4bdd-8b25-ffd094a79243)
+
+
+
+
+
 
 
 # OUTPUT:
