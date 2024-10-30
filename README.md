@@ -127,6 +127,16 @@ void loop()
 
 # CIRCUIT DIAGRAM:
 ![IoT temperature censor](https://github.com/user-attachments/assets/66d5d7f3-6442-4bdd-8b25-ffd094a79243)
+
+
+
+
+
+
+
+
+
+
 # OUTPUT:
 ## THINGSPEAK
 ![image](https://github.com/user-attachments/assets/bc32ceff-5673-4ba1-8a06-2edb6d50c6d0)
