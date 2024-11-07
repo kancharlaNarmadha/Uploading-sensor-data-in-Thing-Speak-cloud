@@ -149,7 +149,8 @@ void loop()
 
 # OUTPUT:
 ## THINGSPEAK
-![image](https://github.com/user-attachments/assets/bc32ceff-5673-4ba1-8a06-2edb6d50c6d0)
+![image](https://github.com/user-attachments/assets/b8d33d77-6820-4cc7-8dfc-9826533d7b4c)
+
 
 ## SERIAL MONITOR
 ![image](https://github.com/user-attachments/assets/47279d0f-5ff6-4306-9642-0e4e19da0d17)
